@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Poppins:wght@400;500;700&display=swap');
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5rem;
+    color: #231f20;
+    background: #f6f5f2;
+}
+.logo{
+    display: flex;
+    width: 100%;
+    font-family: 'Corinthia', cursive;
+    font-size: 2.7rem;
+    background-color: rgb(68, 68, 68);
+    color: #ebebeb;
+    padding: 1.5rem;
+
+}
+.logo p{
+    margin: auto;
+}
+
+/* hero section */
+
+.wrapper{
+    display: flex;
+    padding: 2.5rem;
+}
+.left{
+    padding: 2rem;
+}
+.left figure img{
+    max-width: 500px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right h1{
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+
+}
+.intructions{
+    padding: 1.5rem 0;
+}
+
+
+/* hero section */
+
+/* btn */
+
+.buttons{
+    display: flex;
+    width: 100%;
+    
+}
+.btn{
+    margin: 0 auto;
+    border: none;
+    background-color: #231f20;
+    color: #ebebeb;
+    padding: .7rem 1.8rem;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* btn */
